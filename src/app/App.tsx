@@ -14,7 +14,6 @@ import {
 import { SectionHeading } from './components/SectionHeading';
 
 export default function App() {
-  const profileImageUrl = '/images/profile.jpg';
   const education = [
     {
       period: '2022年 - 2024年',
@@ -218,15 +217,6 @@ export default function App() {
             className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur"
           >
             <div className="space-y-6">
-              <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5">
-                <div className="aspect-[4/5]">
-                  <img
-                    src={profileImageUrl}
-                    alt="プロフィール写真"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </div>
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded-lg bg-[#1f2937]">
                   <Phone className="w-5 h-5" />
