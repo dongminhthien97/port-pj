@@ -14,10 +14,10 @@ export function SectionHeading({ title, subtitle }: SectionHeadingProps) {
       transition={{ duration: 0.5 }}
       className="text-center mb-16"
     >
-      <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+      <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-300 via-amber-300 to-sky-300 bg-clip-text text-transparent">
         {title}
       </h2>
-      {subtitle && <p className="text-gray-400 text-lg max-w-2xl mx-auto">{subtitle}</p>}
+      {subtitle && <p className="text-[#cbbfa8] text-lg max-w-2xl mx-auto">{subtitle}</p>}
     </motion.div>
   );
 }
